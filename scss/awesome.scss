@@ -1,0 +1,122 @@
+.awesome {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #FFFFFF;
+  height: 692px;
+}
+
+.why {
+font: normal normal 600 36px/43px Montserrat;
+}
+
+.divider-orange-small {
+  background: url(../images/divider-orange.svg);
+  width: 64px;
+height: 2px;
+}
+
+.award {
+  display: flex;
+  width: 30px;
+  height: 40px;
+background: url(../images/award-solid.svg);
+background-size: cover;
+}
+
+.award-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 242px;
+height: 194px;
+}
+.crafter {
+  display: flex;
+  width: 42px;
+  height: 36px;
+background: url(../images/spa-solid.svg);
+background-size: cover;
+}
+
+.crafter-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 242px;
+height: 194px;
+}
+
+.customize {
+  display: flex;
+  width: 42px;
+  height: 36px;
+background: url(../images/cc-visa-brands.svg);
+background-size: cover;
+}
+
+.customize-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 242px;
+height: 194px;
+}
+
+.design {
+  font: normal normal normal 20px/24px Montserrat;
+letter-spacing: 0px;
+color: #333333;
+}
+
+.aenean {
+  text-align: center;
+  font: normal normal normal 14px/20px Montserrat;
+letter-spacing: 0px;
+color: #86878B;
+width: 286px;
+}
+.dolor-sit {
+  text-align: center;
+  font: normal normal normal 14px/20px Montserrat;
+letter-spacing: 0px;
+color: #86878B;
+width: 260px;
+}
+.sit-amet {
+  text-align: center;
+  font: normal normal normal 14px/20px Montserrat;
+letter-spacing: 0px;
+color: #86878B;
+width: 238px;
+}
+
+.why {
+  margin: 30px auto;
+  font: normal normal 600 36px/43px Montserrat;
+letter-spacing: 0px;
+color: #212121;
+}
+
+.dolor {
+  margin: 30px auto;
+  font: normal normal normal 14px/20px Montserrat;
+  color: #86878B;
+}
+
+.awesome-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-count: 3;
+  column-gap: 40px;
+}
+
+.awesome-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

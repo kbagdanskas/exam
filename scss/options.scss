@@ -1,0 +1,196 @@
+.options {
+  background: #6696E2 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 949px;
+}
+
+.pricing-options {
+font: normal normal 600 36px/43px Montserrat;
+color: #FFFFFF;
+margin: 30px auto;
+width: 100%;
+text-align: center;
+}
+
+.divider-green-small {
+  background: url(../images/divider-green.svg);
+  background-color: #6696E2;
+  width: 64px;
+height: 2px;
+}
+
+.pricing-lorem {
+  margin: 30px auto;
+  font: normal normal normal 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.pricing-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiper {
+  width: 1129px;
+  min-width: 400px;
+
+}
+
+.swipper-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 1000px;
+}
+
+.swiper-basic {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  height: 450px;
+  width: 343px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 60%;
+  font: normal normal normal 14px/24px Montserrat;
+      border-radius: 0px 0px 8px 8px;
+}
+
+.u273 {
+  background: url(../images/u273.svg);
+  width: 343px;
+height: 6px;
+}
+
+.u274 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background: url(../images/u273.svg);
+  width: 343px;
+height: 40px;
+font: normal normal normal 14px/24px Montserrat;
+letter-spacing: 0px;
+text-align: center;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.basic-text {
+  color: #FFFFFF;
+}
+.professional-text {
+  color: #FFFFFF;
+}
+.enterprise-text {
+  color: #FFFFFF;
+}
+
+.price {
+  font: normal normal normal 75px/24px Montserrat;
+  margin: 30px;
+  color: #FFFFFF;
+}
+
+.swiper-slide {
+  font: normal normal normal 20px/24px Montserrat;
+}
+
+.bottom-price {
+  color: #FFFFFF;
+  opacity: 0.3;
+  font: normal normal normal 14px/24px Montserrat;
+}
+
+.list li {
+  margin: 11px auto;
+  color: #86878B;
+}
+
+.basic-text {
+  display: flex;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+}
+
+.basic-background {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333333;
+  width: 100%;
+  height: 39%;
+    border-radius: 8px 8px 0px 0px;
+}
+.professional-background {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333333;
+  width: 100%;
+  height: 55%;
+    border-radius: 8px 8px 0px 0px;
+}
+.enterprise-background {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333333;
+  width: 100%;
+  height: 39%;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.basic-background div {
+  color: white;
+}
+
+.swiper-professional {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  height: 450px;
+  width: 470px;
+  margin: 20px 50px 0px 50px;
+    border-radius: 8px;
+}
+
+.swiper-enterprise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  height: 450px;
+  width: 470px;
+    border-radius: 8px;
+}

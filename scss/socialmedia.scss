@@ -1,0 +1,91 @@
+.socialmedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #FFFFFF;
+  color: black;
+  height: 105px;
+  z-index: 1;
+}
+
+.left1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  width: 30%;
+}
+
+.county {
+  width: 120px;
+  height: 50px;
+}
+
+.media {
+  font: normal normal 600 20px/24px Montserrat;
+letter-spacing: 0px;
+color: #333333;
+opacity: 1;
+}
+
+.ipsum {
+  text-align: left;
+font: normal normal normal 14px/20px Montserrat;
+letter-spacing: 0px;
+color: #86878B;
+opacity: 1;
+width: 394px;
+}
+
+.right1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  height: 100%;
+  width: 40%;
+  align-content: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 50px;
+  width: 100%;
+  color: black;
+}
+
+.facebook-logo {
+  width: 30px;
+  height: 30px;
+    background: transparent url(../images/facebook-logo.svg) 0% 0% no-repeat padding-box;
+}
+
+.instagram-logo {
+  width: 30px;
+  height: 30px;
+    background: transparent url(../images/instagram-logo.svg) 0% 0% no-repeat padding-box;
+}
+
+.fab-fa-twitter {
+  width: 36px;
+  height: 30px;
+    background: transparent url(../images/twitter.svg) 0% 0% no-repeat padding-box;
+}
+
+.fab-fa-pinterest {
+  width: 30px;
+  height: 30px;
+    background: transparent url(../images/pinterest.svg) 0% 0% no-repeat padding-box;
+}
+.fab-fa-rss {
+  width: 30px;
+  height: 30px;
+    background: transparent url(../images/rss-solid.svg) 0% 0% no-repeat padding-box;
+}

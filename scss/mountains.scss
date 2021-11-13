@@ -1,0 +1,139 @@
+.mountains {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: url(../images/christoffer-engstrom-503481-unsplash.png);
+  background-repeat: no-repeat;
+      background-size: cover;
+  width: 100%;
+  height: 695px;
+  background-position: bottom;
+}
+
+.first-photo {
+  background-image: url(../images/kopustas.png);
+  height: 168px;
+  background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 15px;
+  width: 181px;
+}
+.second-photo {
+  background: url(../images/salota.png);
+  background-repeat: no-repeat;
+      background-size: cover;
+  height: 168px;
+  width: 181px;
+}
+.third-photo {
+  background: url(../images/kojos.png);
+  width: 362px;
+  background-repeat: no-repeat;
+      background-size: cover;
+  height: 177px;
+}
+
+.tabs {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flextab {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 362px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.first-photo:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+.second-photo:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+.third-photo:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.explore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+		z-index: 2;
+    opacity: 0;
+    transition: 0.3s;
+    color: white;
+}
+
+.explore:hover {
+  opacity: 1;
+}
+
+.tab {
+display: none;
+padding: 20px;
+transform: translatex(-25px);
+opacity: 0;
+transition: 0.3s;
+color: white;
+margin-left: 50px;
+width: 50%;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  opacity: 0.6;
+   width: 100px;
+   height: 100px;
+     margin-bottom: 20px;
+   background-color: rgba(226, 120, 102, 1);
+
+}
+
+.degree {
+     transform: rotate(-45deg);
+     color: white;
+     font-size: 15px;
+     opacity: 1.5;
+}
+
+button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.tabStyle1 {
+  opacity: 1;
+}
+
+
+.tabStyle2 {
+  transform: translateY(0);
+  transition: 0.3s;
+}
+
+.active {
+  opacity: 0.6;
+}

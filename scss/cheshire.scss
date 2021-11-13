@@ -1,0 +1,120 @@
+.cheshire {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+background: #1C1C1C 0% 0% no-repeat padding-box;
+  width: 100%;
+  height: 695px;
+  align-items: center;
+}
+
+.lefty {
+  display: flex;
+  align-content: center;
+  background: url(../images/cheshire-county-hygiene-services.svg);
+  width: 389px;
+height: 169px;
+}
+
+.righty {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+.erat {
+  width: 350px;
+  height: 80px;
+  color: #FFFFFF;
+  font: normal normal 600 30px/43px Montserrat;
+  margin-bottom: 30px;
+}
+
+.divider-orange {
+  background: url(../images/divider-orange.svg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 2px;
+  margin: 0px 0px 20px 2px;
+}
+
+.loremas {
+  color: #FFFFFF;
+  font: normal normal normal 14px/20px Montserrat;
+  width: 451px;
+  height: 58px;
+}
+
+.akis {
+    display: flex;
+  width: 451px;
+  height: 80px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.chatas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+    width: 451px;
+    height: 80px;
+  align-items: flex-start;
+}
+
+.loremas1 {
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  font: normal normal normal 14px/20px Montserrat;
+  width: 451px;
+  height: 58px;
+  margin-left: 15px;
+}
+
+.loremas2 {
+    display: flex;
+  color: #FFFFFF;
+  font: normal normal normal 14px/20px Montserrat;
+  width: 451px;
+  height: 58px;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.title {
+  display: flex;
+  color: white;
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
+.title2 {
+  font: normal normal 600 14px/17px Montserrat;
+  color: white;
+  margin-left: 47px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.akys {
+      display: flex;
+      width: 35px;
+    height: 25px;
+    background: url(../images/eye-regular.svg);
+    background-size: cover;
+}
+
+.chatai {
+  display: flex;
+  width: 30px;
+  height: 26px;
+background: url(../images/comment-regular.svg);
+background-image: orange;
+background-size: cover;
+background-color: #E27866 0% 0% no-repeat padding-box;
+margin-left: 5px;
+}
